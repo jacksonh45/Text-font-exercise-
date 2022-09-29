@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-*{
-    font-family: 'Orbitron', sans-serif;
+:root {
+    font-family: 'orbitron', sans-serif;
 }
 span{
     font-weight: bold;
@@ -16,10 +16,11 @@ h1{
     font-size: 20px;
 }
 h2{
-font-size: 2em;
+font-size: 4em;
 }
 li{
    line-height: 2;
+   font-size: 2em;
 }
 #characters{
     font-size: 18px;
@@ -42,5 +43,5 @@ body{
     background-size: cover;
 }
 *{
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, .6);
 }
